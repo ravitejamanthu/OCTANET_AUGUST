@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency - Explore the World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Explore the World</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#weather">Weather</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Your Adventure Awaits</h1>
+                <p>Discover stunning destinations with personalized travel packages.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We offer tailored travel experiences to the most beautiful destinations around the world. Our team of travel experts ensures that every detail of your journey is perfect.</p>
+        </div>
+    </section>
+    
+    <section id="weather" class="weather">
+        <div class="container">
+            <h2>Current Weather</h2>
+            <div id="weather-info">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="map" class="map">
+        <div class="container">
+            <h2>Explore Our Locations</h2>
+            <div id="map"></div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <h1>Email:travelagency123@gmail.com</h1>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Explore the World. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
